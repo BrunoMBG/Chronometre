@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f6f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+.stop__watch__container {
+  background-color: #fff;
+  padding: 100px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+.stop__watch__container .stop__watch__content .stop__watch {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.stop__watch__container .stop__watch__content .stop__watch span {
+  font-size: 50px;
+}
+.stop__watch__container .stop__watch__content .buttons {
+  display: flex;
+  justify-content: center;
+}
+.stop__watch__container .stop__watch__content .buttons button {
+  padding: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  background-color: #5dade2;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+}
+.stop__watch__container .stop__watch__content .buttons button:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in;
+  box-shadow: 5px 5px 5px #060b0e;
+}
+.stop__watch__container .stop__watch__content .buttons button:not(:last-child) {
+  margin-right: 20px;
+}/*# sourceMappingURL=style.css.map */
